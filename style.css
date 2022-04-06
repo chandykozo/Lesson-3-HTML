@@ -14,13 +14,13 @@ hr {
 
 
 /* lists */
-.list-non-bullet{
+.list-non-bullet {
     list-style: none;
 }
 
 
-.list-item-inline{
-    display:inline;
+.list-item-inline {
+    display: inline;
 }
 
 
@@ -28,16 +28,15 @@ hr {
 
 /* Navigation */
 
-nav{
+nav {
     background-color: var(--primary-color);
-color: blanchedalmond;
-border-radius: 0.5rem;
+    color: blanchedalmond;
+    border-radius: 0.5rem;
 }
 
 
-.navigation .link{
-    color:white
-
+.navigation .link {
+    color: white
 }
 
 /* container */
