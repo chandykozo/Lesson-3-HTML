@@ -13,7 +13,34 @@ hr {
 }
 
 
-/**container**/
+/* lists */
+.list-non-bullet{
+    list-style: none;
+}
+
+
+.list-item-inline{
+    display:inline;
+}
+
+
+
+
+/* Navigation */
+
+nav{
+    background-color: var(--primary-color);
+color: blanchedalmond;
+border-radius: 0.5rem;
+}
+
+
+.navigation .link{
+    color:white
+
+}
+
+/* container */
 
 .container {
     padding-right: 1rem;
