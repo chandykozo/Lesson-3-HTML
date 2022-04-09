@@ -23,7 +23,7 @@ hr {
 
 .list-item-inline {
     display: inline;
-    padding 0 rem 0.5rem; 
+    padding: 0rem 0.5rem;
 }
 
 
@@ -103,6 +103,7 @@ nav {
 }
 
 .KF .KF-heading {
+    text-align: center;
     color: var(--dark-grey);
     padding-top: 1rem;
 }
@@ -134,7 +135,15 @@ nav {
 
 /* footers */
 
-footer{
+footer {
     background-color: var(--primary-color);
     padding: 2rem;
+    border-bottom-right-radius: 1rem;
+    color: aliceblue
+}
+
+.footer .link {
+    color: white;
+    font-weight: 500px;
+    padding: 0rem;
 }
