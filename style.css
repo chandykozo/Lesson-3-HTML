@@ -26,9 +26,6 @@ hr {
     padding: 0rem 0.5rem;
 }
 
-
-
-
 /* Navigation */
 
 nav {
@@ -75,6 +72,7 @@ nav {
 .link {
     text-decoration-line: none;
     padding: 0.5rem 0.75rem;
+    color: var(--primary-color);
 }
 
 .link-primary {
@@ -82,6 +80,9 @@ nav {
     border-radius: 0.5rem;
     padding-top: 0.6rem;
     color: white
+}
+.link-proj {
+    border-right: 00.6rem;
 }
 
 .link-secondary {
