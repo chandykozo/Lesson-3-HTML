@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 body {
-    font-family: 'Courier Prime', monospace;
+    font-family: 'Roboto', sans-serif;
 }
 
 :root {
-    --primary-color: #881337;
+    --primary-color: #D28B15;
     --dark-grey: #756465;
     --off-white: #ECECEC;
 }
@@ -33,14 +33,14 @@ hr {
 
 nav {
     background-color: var(--primary-color);
-    color: blanchedalmond;
+    color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
     border-top-right-radius: 1rem;
 }
 
 .navigation .nav-brand {
-    font-weight: bold;
+    font-weight:500;
     font-size: 1.1rem;
 }
 
@@ -139,11 +139,20 @@ footer {
     background-color: var(--primary-color);
     padding: 2rem;
     border-bottom-right-radius: 1rem;
-    color: aliceblue
+    color: aliceblue;
+    text-align:center;
+}
+.footer .social-links{
+    text-align: center;
+        padding: 0rem;
+
 }
 
+.footer .social-heading{
+    font-weight: bold;
+    font-size: large;
+}
 .footer .link {
     color: white;
     font-weight: 500px;
-    padding: 0rem;
 }
